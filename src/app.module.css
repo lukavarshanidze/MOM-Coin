@@ -1,0 +1,17 @@
+.header{
+    padding: 10px 15px;
+    background-color: #0B0B0B;
+}
+
+.dogepedia{
+    background-color: #FAFAFA;
+}
+
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+
+@media only screen and (max-width: 768px) {
+.header{
+}   
+}

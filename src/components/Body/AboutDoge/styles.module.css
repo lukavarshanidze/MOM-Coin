@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Neue";
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 18px;
+    width: 100%;
+    max-width: 1128px;
+    gap: 50px;
+}
+
+.content {
+    width: 100%;
+    max-width: 524px;
+    padding: 0px 20px !important;
+    box-sizing: content-box;
+}
+
+.content h2{
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #212529;
+}
+
+.content h2 + p {
+    font-size: 19px;
+    line-height: 35px;
+    margin: 16px 0px;
+}
+.content h2 + p + p{
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: 27px;;
+}
+.dogepic img{
+    width: 450px;
+}
+.dogepic {
+    width: 100%;
+    max-width: 480px;
+    box-sizing: content-box;
+    padding: 0px 42px !important;
+}
+
+
+
+.gettingStarted{
+    width: 100%;
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    padding-top: 80px;
+}
+.gettingStarted h2{
+    font-size: 45px;
+    color: #212529;
+    padding-bottom: 20px;
+}
+ 
+.getting__container{
+    display: flex;
+    gap: 22px;
+    padding-bottom: 48px;
+    margin-top: 20px;
+}
+.getting__container span{
+    color: black;
+}
+
+.getting__child{
+    width: 100%;
+    max-width: 346px;
+}
+.getting__child span:nth-child(1) {
+    font-size: 18px;
+    padding: 6.3px 11.7px;
+    background-color: #346DDB;
+    color: white;
+    border-radius: 0.25rem;
+}
+.getting__child span + span{
+    font-size: 24px;
+    color: #222222;
+    margin-left: 7px;
+    font-weight: 500;
+}
+.pickwallet{
+    padding: 16px 0px;
+    font-size: 16px;
+    line-height: 27px;
+}
+.pickwallet + p{
+    width: fit-content;
+    padding: 6px 12px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 0.25rem;
+}
+
+.clipBoardButton{
+    padding-left: 5px;
+}
+
+.addressInput{
+    padding: 5px 40px 5px 5px;
+    border-radius: 18px;
+    background-color: rgb(201, 201, 201);
+}
+
+.clipBoardButton{
+    color: red;
+    padding: 0px 5px;
+    position: relative;
+    right: 30px;
+    top: 3px;
+    border: none;
+    background: transparent;
+}
+.clipBoardButton img{
+    width: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container__ .dogepic{
+        display: none;
+    }
+    .container__{
+        width: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+    .content{
+        margin-left: auto;
+    }
+
+    .getting__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

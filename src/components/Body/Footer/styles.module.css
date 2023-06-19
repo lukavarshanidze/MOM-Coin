@@ -1,0 +1,155 @@
+
+
+
+.container__{
+   font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.container span{
+   display: flex;
+   justify-content: center;
+    color: #212529;
+    padding-bottom: 48px;
+    font-size: 32px;
+    margin-top: 68px;
+}
+
+.childContainer{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    max-height: 350px;
+    padding: 16px;
+    background-color: #fcf4df;;
+}
+
+.childContainer p{ 
+    width: 100%;
+    max-width: 212px;
+    margin: 0 auto;
+}
+.childContainer img{
+    padding: 8px;
+    margin: 0;
+}
+
+.childContainer img + p{
+    padding-top: 16px;
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.childContainer img + p + p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 27px;
+}
+
+.visit{
+    padding-bottom: 6px;
+    font-size: 17.6px;
+    padding-bottom: 40px;
+}
+
+.border{
+ }
+
+ .nextContainer{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ .nextContainer ul{
+    list-style-type: none;
+ }
+
+ .childDiv{
+    width: 100%;
+    max-width: 258px;
+    text-align: center;
+ }
+.childDiv div a{
+   display: flex;
+   flex-direction: column;
+}
+ .nextContainer img{
+    fill: black; }
+ .childTitle, .childDiv img{
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .childTitle{
+    color: black;
+    font-weight: bold;
+ }
+
+ .childItem{
+    margin-top: 10px;
+ }
+
+ .childItem a{
+   color: #999999;
+ }
+ .childItem{
+    font-size: 14.4px;
+    color: #999999;
+    line-height: 24.4px;
+ }
+
+ .childDiv ul{
+    line-height: 28px;
+ }
+
+ .lastContainer{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 45px;
+ }
+ .lastContainer p{
+    color: rgb(153, 153, 153);
+ }
+ 
+
+ .lastBorder{
+    margin-bottom: 10px;
+    max-width: 1200px;
+    border: 1px solid rgb(220, 220, 220)
+ }
+
+ .lastEl{
+    margin-bottom: 40px;
+    margin-top: 5px;
+ }
+
+ .childDivLogod{
+   width: 50px;
+   border-radius: 50%;
+ }
+
+ .childFirstCont{
+   display: flex;
+   height: fit-content;
+   align-items: center;
+   gap: 10px;
+}
+@media only screen and (max-width: 768px) {
+   .container_span{
+      font-size: 12px;
+   }
+
+}

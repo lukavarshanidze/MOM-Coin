@@ -1,0 +1,185 @@
+
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+.container a, span{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo {
+}
+.logo a{
+    cursor: pointer
+    ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.navigation nav{
+    display: flex;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation__leftside li {
+    margin: 0 9px;
+}
+.dogopedia span{
+    font-size: 15.4px;
+    padding: 0px 6.3px;
+}
+.navigation nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation__leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0px 15px;
+    letter-spacing: normal;
+    max-width: 100%;
+}
+.navigation__leftside a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.62px;
+}
+
+.shirtSvg img{
+    width: 20px;
+    height: 16px;   
+}
+.nav__end__part{
+    padding: 0;
+    margin-right: 10px;
+}
+.nav__end__part li{
+    display: flex;
+}
+.nav__end__part img{
+}
+
+.language__eng{
+    font-size: 13.2px;
+    padding: 4.62px 8.2px;
+    margin: 0px 4.5px;
+    background-color: #212529;
+    border-radius: 4px;
+}
+.language img{
+    width: 23.46px;
+    height: 17.59px;
+}
+.language .svgspan {
+    display: inline-block;
+    line-height: 19.21px;
+    height: 19.21px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 18.4px;
+}
+.toogleLi img{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.show{
+    display: none;
+}
+.dogopedia:hover .show{
+    position: absolute;
+    width: 100%;
+    max-width: 140px;
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+    padding: 30px 15px 20px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger img{
+    width: 20px;
+}
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+   .hamburger{
+    display: block;
+}
+
+    .navigation{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+    }
+   .container{
+   }
+
+   .hamburger .navigation__leftside{
+    display: block;
+   }
+   .hamburger ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    top: 70px;
+    right: 0;
+    left: 0;    
+    background-color: #0B0B0B;
+   }
+   .hamburger li {
+    display: flex;
+    justify-content: center;
+}
+.navigation__leftside li{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+}
